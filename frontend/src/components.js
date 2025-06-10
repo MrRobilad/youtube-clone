@@ -605,7 +605,7 @@ export const VideoPlayer = ({ video, darkMode, onBack }) => {
                         <span className="text-xs">{comment.likes}</span>
                       </button>
                       <button className={`flex items-center space-x-1 ${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-black'} transition-colors`}>
-                        <Thumbs className="w-4 h-4 rotate-180" />
+                        <ThumbsDown className="w-4 h-4" />
                       </button>
                       <button className={`text-xs font-medium ${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-black'} transition-colors`}>
                         Reply
