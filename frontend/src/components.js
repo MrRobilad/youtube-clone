@@ -32,7 +32,7 @@ import {
   Pause,
   Volume2,
   Maximize,
-  Thumbs,
+  ThumbsDown,
   Heart,
   MessageCircle,
   Filter,
